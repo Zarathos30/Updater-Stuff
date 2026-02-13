@@ -1,0 +1,5 @@
+DerpFest v16.2 - Poco F7 (onyx) - 2026-02-13
+
+• Source upstream to latest DerpFest v16.2
+• Fixed audio ducking not released after notification (volume stays low until pause/resume)
+• OTA updates enabled
