@@ -1,14 +1,5 @@
-DerpFest v16.2 - Poco F7 (onyx) - 2026-02-13
+DerpFest v16.2 - Poco F7 (onyx) - 2026-02-14
 
 • Source upstream to latest DerpFest v16.2
-• Build erofs images for odm/system_dlkm/vendor/vendor_dlkm partitions
-• Switch all remaining partitions to full erofs filesystem
-• Remove deprecated GSI AVB keys from rootdir
-• Add erofs compression hints for better performance
-• Enable zram writeback support
-• Correct zram parameter names in fstab
-• Add compression and garbage collection options from zumapro fstab
-• Remove discard flag from metadata f2fs mount
-• Restrict apps access to /proc/net/unix for security
-• Suppress harmless SELinux denials in logs
-• Use correct dalvik.vm heap values optimized for this device
+• Removed HWUI_COMPILE_FOR_PERF flag
+• Disable Skia tracing by default for better performance
